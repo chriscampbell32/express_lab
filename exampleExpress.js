@@ -11,7 +11,7 @@ app.get("/home", function(req, res){
     res.sendFile(process.cwd() + "/home.html");
 });
 
-app.get("/login", function(req, res){
+app.get("/", function(req, res){
     res.sendFile(process.cwd() + "/login.html");
 });
 
